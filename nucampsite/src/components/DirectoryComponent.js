@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'; 
 
 class Directory extends Component {
     constructor(props) {
@@ -56,5 +56,5 @@ class Directory extends Component {
             </div>
         );
     }
-
+}
 export default Directory;
