@@ -10,7 +10,7 @@ class Directory extends Component {
     }
 
     onCampsiteSelect(campsite) {
-        this.setState({selectedCampsite: campsite});
+        this.setState({ selectedCampsite: campsite });
     }
 
     renderSelectedCampsite(campsite) {
@@ -41,19 +41,6 @@ class Directory extends Component {
                 </div>
             );
         });
-
-        return (
-            <div className="container">
-                <div className="row">
-                    {directory}
-                </div>
-                <div className="row">
-                    <div className="col-md-5 m-1">
-                        {this.renderSelectedCampsite(this.state.selectedCampsite)}
-                    </div>
-                </div>
-            </div>
-        );
     }
 }
 
